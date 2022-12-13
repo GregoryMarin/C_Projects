@@ -1,0 +1,5 @@
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Example002_HelloUser/obj/Debug/net7.0/Example002_HelloUser.csproj.AssemblyReference.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Example002_HelloUser/obj/Debug/net7.0/Example002_HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Example002_HelloUser/obj/Debug/net7.0/Example002_HelloUser.AssemblyInfoInputs.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Example002_HelloUser/obj/Debug/net7.0/Example002_HelloUser.AssemblyInfo.cs
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Example002_HelloUser/obj/Debug/net7.0/Example002_HelloUser.csproj.CoreCompileInputs.cache
