@@ -1,0 +1,15 @@
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/bin/Debug/net7.0/Exemple001_Console
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/bin/Debug/net7.0/Exemple001_Console.deps.json
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/bin/Debug/net7.0/Exemple001_Console.runtimeconfig.json
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/bin/Debug/net7.0/Exemple001_Console.dll
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/bin/Debug/net7.0/Exemple001_Console.pdb
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.csproj.AssemblyReference.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.AssemblyInfoInputs.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.AssemblyInfo.cs
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.csproj.CoreCompileInputs.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.dll
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/refint/Exemple001_Console.dll
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.pdb
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/Exemple001_Console.genruntimeconfig.cache
+/Users/Gregory/Desktop/обучение GeekBrains/C#/Exemple001_Console/obj/Debug/net7.0/ref/Exemple001_Console.dll
