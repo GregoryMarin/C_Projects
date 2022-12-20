@@ -10,11 +10,11 @@ Console.WriteLine("Введите 2 числа: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if (number1 == number2 * number2)
+if (number1 / number2 == number2)
 {
     Console.WriteLine($"Число {number1} кратно {number2}");
 } 
 else
 {
-    Console.WriteLine("не кратно, остаток " number2 % 10);
+    Console.WriteLine(number1 % number2);
 }
