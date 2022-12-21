@@ -1,18 +1,26 @@
-﻿
-
-int[] array = {};
-
-
-
-int index = 0;
-System.Console.WriteLine("Введите число, которое будет колличеством кормлений ребенка в сутки: ");
-int amount = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Напишите часы, в которые вы обычно кормите ребенка:");
-while (index < amount)
+﻿void FillArray(int[] context)
 {
-    
-    int numbers = Convert.ToInt32(Console.ReadLine());
-    Console.Write(numbers);
-    index++;
+    int length = context.Length;
+    int index = 0;
+    while (index < length)
+    {
+        context[index] = new Random().Next(1, 10);
+        index++;
+    }
 }
+
+void PrintArray(int[] write)
+{
+    int counter = 0;
+    int ammount = write.Length;
+    while (counter < ammount)
+    {
+        Console.Write($" {write[counter]}");
+        counter++;
+    }
+}
+
+int[] array = new int[10];
+
+FillArray(array);
+PrintArray(array);
