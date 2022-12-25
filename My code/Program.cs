@@ -15,12 +15,34 @@ void PrintArray(int[] write)
     int ammount = write.Length;
     while (counter < ammount)
     {
-        Console.Write($" {write[counter]}");
+        Console.Write($"{write[counter]} ");
         counter++;
     }
 }
 
+int IndexOff(int[] context, int find)
+{
+    int count = context.Length;
+    int index = 0;
+    int position = 0;
+    while (index < count)
+    {
+        if (context[index] == find)
+        {
+            position = index;
+            
+        }
+        index++;
+    }
+    return position;
+
+}
 int[] array = new int[10];
+
 
 FillArray(array);
 PrintArray(array);
+Console.WriteLine();
+
+int pos = IndexOff(array, 4);
+Console.WriteLine(pos);
