@@ -25,5 +25,9 @@ void Currency(int value1)
         double result2 = Math.Round(result, 2, MidpointRounding.ToZero);
         System.Console.WriteLine($"It will be {result2} US_Dollars");
     }
+    if (value1 != 1 && value1 != 2)
+    {
+        System.Console.WriteLine("Non correct answer");
+    }
 }
 Currency(currency);
