@@ -4,7 +4,7 @@
 */
 
 Console.WriteLine("Write day number: ");
-int day = int.Parse(Console.ReadLine());
+int day = Convert.ToInt32(Console.ReadLine());
 
 
 if (day == 1) Console.WriteLine("Monday");
