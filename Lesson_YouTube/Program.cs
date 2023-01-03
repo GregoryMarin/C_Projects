@@ -2,10 +2,10 @@
 
 double firstValue, secondValue;
 System.Console.WriteLine("Введите первое число: ");
-firstValue = double.Parse(Console.ReadLine());
+firstValue = Convert.ToDouble(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе число: ");
-secondValue = double.Parse(Console.ReadLine());
+secondValue = Convert.ToDouble(Console.ReadLine());
 
 void Average(double n1, double n2)
 {

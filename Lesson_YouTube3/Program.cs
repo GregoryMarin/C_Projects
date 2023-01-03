@@ -1,9 +1,9 @@
 ﻿// Напишите программу которая выводит четные числа и нечетные числа из заданного диапозона, а так же выводит сумму четных чисел
 
 System.Console.WriteLine("Введите минимальное значение: ");
-int minValue = int.Parse(Console.ReadLine());
+int minValue = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Ввеедите максимальное значение: ");
-int maxValue = int.Parse(Console.ReadLine());
+int maxValue = Convert.ToInt32(Console.ReadLine());
 
 void Counters(int n1, int n2)
 {

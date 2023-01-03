@@ -1,12 +1,12 @@
 ﻿Console.WriteLine("Введите первое число: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int number2 = int.Parse(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
 
 void Characters(int n1, int n2)
 {
     System.Console.WriteLine("Введите значение: ");
-    string a = Console.ReadLine();
+    var a = Console.ReadLine();
     switch (a)
     {
         case "*":

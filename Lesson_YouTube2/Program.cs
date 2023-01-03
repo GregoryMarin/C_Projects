@@ -3,13 +3,13 @@
 double firstNumber, secondNumber, thirdNumber;
 
 System.Console.WriteLine("Введите первое число: ");
-firstNumber = double.Parse(Console.ReadLine());
+firstNumber = Convert.ToDouble(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе число: ");
-secondNumber = double.Parse(Console.ReadLine());
+secondNumber = Convert.ToDouble(Console.ReadLine());
 
 System.Console.WriteLine("Введите третье число: ");
-thirdNumber = double.Parse(Console.ReadLine());
+thirdNumber = Convert.ToDouble(Console.ReadLine());
 
 void Number(double n1, double n2, double n3)
 {
