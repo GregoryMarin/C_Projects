@@ -1,41 +1,36 @@
-﻿Console.WriteLine("Введите первое число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число: ");
-int number2 = Convert.ToInt32(Console.ReadLine());
+﻿double firstNumber, secondNumber;
+string action;
+Console.WriteLine("Введите первое число: ");
+firstNumber = Convert.ToDouble(Console.ReadLine());
 
-void Characters(int n1, int n2)
+Console.WriteLine("Введите второе число: ");
+secondNumber = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Введите действие ('+', '-', '*', '/')");
+action = Console.ReadLine();
+
+void Calculator(double n1, double n2)
 {
-    System.Console.WriteLine("Введите значение: ");
-    var a = Console.ReadLine();
-    switch (a)
+
+    switch (action)
     {
-        case "*":
-            int result = n1 * n2;
-            System.Console.WriteLine($"Результат умножения чисел = {result}");
-            break;
-        case "/":
-            int result1 = n1 / n2;
-            System.Console.WriteLine($"Результат деления чисел = {result1}");
+        case "+":
+            Console.WriteLine(n1 + n2);
             break;
         case "-":
-            int result2 = n1 - n2;
-            System.Console.WriteLine($"Результат вычитания чисел = {result2}");
+            Console.WriteLine(n1 - n2);
             break;
-        case "+":
-            int result3 = n1 + n2;
-            System.Console.WriteLine($"Результат сложения чисел = {result3}");
+        case "*":
+            Console.WriteLine(n1 * n2);
+            break;
+        case "/":
+            if (n1 == 0 || n2 == 0) Console.WriteLine("Число не делится на ноль");
+            else Console.WriteLine(n1 / n2);
             break;
         default:
-            {
-                System.Console.WriteLine("неверное значение");
-                break;
-            }
+            Console.WriteLine("Неверные данные");
+            break;
     }
 }
 
-
-if (number > 0 && number2 > 0) 
-{
-    Characters(number, number2);
-}
-else System.Console.WriteLine("неверное значение");
+Calculator(firstNumber, secondNumber);
