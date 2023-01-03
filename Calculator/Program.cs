@@ -1,17 +1,15 @@
 ﻿double firstNumber, secondNumber;
-string action;
+
 Console.WriteLine("Введите первое число: ");
 firstNumber = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Введите второе число: ");
 secondNumber = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите действие ('+', '-', '*', '/')");
-action = Console.ReadLine();
-
 void Calculator(double n1, double n2)
 {
-
+    Console.WriteLine("Введите действие ('+', '-', '*', '/')");
+    string action = Console.ReadLine();
     switch (action)
     {
         case "+":
