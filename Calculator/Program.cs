@@ -1,5 +1,7 @@
 ﻿Console.WriteLine("Введите первое число: ");
 int number = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int number2 = int.Parse(Console.ReadLine());
 
 void Characters(int n1, int n2)
 {
@@ -17,13 +19,23 @@ void Characters(int n1, int n2)
             break;
         case "-":
             int result2 = n1 - n2;
-            System.Console.WriteLine($"Результат вычисления чисел = {result2}");
+            System.Console.WriteLine($"Результат вычитания чисел = {result2}");
             break;
         case "+":
             int result3 = n1 + n2;
             System.Console.WriteLine($"Результат сложения чисел = {result3}");
             break;
+        default:
+            {
+                System.Console.WriteLine("неверное значение");
+                break;
+            }
     }
 }
 
-Characters(number, number2);
+
+if (number > 0 && number2 > 0) 
+{
+    Characters(number, number2);
+}
+else System.Console.WriteLine("неверное значение");
